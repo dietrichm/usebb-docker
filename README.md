@@ -20,9 +20,13 @@ $dbs['persistent'] = 0;
 ```
 
 * Run `docker-compose up -d`.
-* Go to [the register page](http://0.0.0.0/panel.php?act=register), click "I accept", and fill in the credentials for your admin account.
-* Click "Register". An e-mail sending error will show -- you may disregard this.
-* [Log in](http://0.0.0.0/panel.php?act=login) using your specified credentials.
+* Go to [the register page](http://0.0.0.0/panel.php?act=register) and click "I accept".
+* Fill in the credentials for your admin account and click "Register".
+* Proceed to [log in](http://0.0.0.0/panel.php?act=login) using your specified credentials.
+
+## Checking mails
+
+Mails are sent to a local MailHog container, which you can [access in the browser](http://0.0.0.0:8025/).
 
 ## Peeking into the database
 
