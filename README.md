@@ -24,15 +24,6 @@ $dbs['persistent'] = 0;
 * Don't save the downloaded `config.php` file and click said "Start Installation" button again.
 * [Log in](http://0.0.0.0/panel.php?act=login) using your specified credentials.
 
-## Known issues
-
-Well... this is legacy software that was not maintained in close to a decade. There are bound to be issues, especially if we'd be running this on PHP 7 or 8.
-
-What appears to be broken on PHP 5.6 and MySQL 5.7 (used by the containers):
-
-* Search, complaining over "Expression #1 of ORDER BY clause is not in SELECT list".
-* ...?
-
 ## Peeking into the database
 
 Using Adminer, you can easily access the UseBB database:
