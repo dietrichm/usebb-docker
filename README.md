@@ -32,7 +32,7 @@ Mails are sent to a local MailHog container, which you can [access in the browse
 
 Using Adminer, you can easily access the UseBB database:
 
-* Provided containers are running, go to [0.0.0.0:8080](http://0.0.0.0:8080/).
+* Provided containers are running, go to [the Adminer interface](http://0.0.0.0:8080/).
 * Enter "MySQL", `db`, `user`, `password` and `usebb` for respectively system, server, username, password and database, and click "Login".
 
 ![](https://raw.githubusercontent.com/usebb/UseBB/v1.0/templates/default/smilies/lol.gif)
