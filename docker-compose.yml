@@ -5,3 +5,10 @@ services:
       - 80:80
     volumes:
       - ../usebb:/var/www/html
+  db:
+    image: mysql:5
+    environment:
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: usebb
+      MYSQL_ROOT_PASSWORD: root
