@@ -7,8 +7,12 @@ services:
       - ../usebb:/var/www/html
   db:
     image: mysql:5
+    volumes:
+      - mysql-volume:/var/lib/mysql
     environment:
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_DATABASE: usebb
       MYSQL_ROOT_PASSWORD: root
+volumes:
+  mysql-volume:
