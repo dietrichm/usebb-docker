@@ -32,3 +32,12 @@ What appears to be broken on PHP 5.6 and MySQL 5.7 (used by the containers):
 
 * Search, complaining over "Expression #1 of ORDER BY clause is not in SELECT list".
 * ...?
+
+## Peeking into the database
+
+Using Adminer, you can easily access the UseBB database:
+
+* Provided containers are running, go to [0.0.0.0:8080](http://0.0.0.0:8080/).
+* Enter "MySQL", `db`, `user`, `password` and `usebb` for respectively system, username, password and database, and click "Login".
+
+![](https://raw.githubusercontent.com/usebb/UseBB/v1.0/templates/default/smilies/lol.gif)
