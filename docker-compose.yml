@@ -17,6 +17,10 @@ services:
       MYSQL_ROOT_PASSWORD: root
     command:
       - --sql_mode=
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - 8025:8025
   adminer:
     image: adminer
     ports:
