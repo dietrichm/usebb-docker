@@ -26,7 +26,7 @@ $dbs['persistent'] = 0;
 
 ## Known issues
 
-Well... this is legacy software that was not maintained in close to a decade. There are bound to be issues, especially if we'd be running this in PHP 7 or 8.
+Well... this is legacy software that was not maintained in close to a decade. There are bound to be issues, especially if we'd be running this on PHP 7 or 8.
 
 What appears to be broken on PHP 5.6 and MySQL 5.7 (used by the containers):
 
@@ -38,6 +38,6 @@ What appears to be broken on PHP 5.6 and MySQL 5.7 (used by the containers):
 Using Adminer, you can easily access the UseBB database:
 
 * Provided containers are running, go to [0.0.0.0:8080](http://0.0.0.0:8080/).
-* Enter "MySQL", `db`, `user`, `password` and `usebb` for respectively system, username, password and database, and click "Login".
+* Enter "MySQL", `db`, `user`, `password` and `usebb` for respectively system, server, username, password and database, and click "Login".
 
 ![](https://raw.githubusercontent.com/usebb/UseBB/v1.0/templates/default/smilies/lol.gif)
