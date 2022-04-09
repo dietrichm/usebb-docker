@@ -14,5 +14,9 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_DATABASE: usebb
       MYSQL_ROOT_PASSWORD: root
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
 volumes:
   mysql-volume:
