@@ -20,8 +20,8 @@ $dbs['persistent'] = 0;
 ```
 
 * Run `docker-compose up -d`.
-* Go to [the install wizard](http://0.0.0.0/install/index.php), fill in some bogus values for the database config, specify the credentials for an admin account, and click "Start Installation".
-* Don't save the downloaded `config.php` file and click said "Start Installation" button again.
+* Go to [the register page](http://0.0.0.0/panel.php?act=register), click "I accept", and fill in the credentials for your admin account.
+* Click "Register". An e-mail sending error will show -- you may disregard this.
 * [Log in](http://0.0.0.0/panel.php?act=login) using your specified credentials.
 
 ## Peeking into the database
