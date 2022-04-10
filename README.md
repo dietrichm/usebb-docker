@@ -7,19 +7,8 @@ This is used primarily for code refactoring katas, workshops, and just downright
 ## Set up
 
 * Clone UseBB 1 into `../usebb`.
-* Edit `../usebb/config.php` and adjust the database settings to:
-
-```php
-$dbs['type'] = 'mysqli';
-$dbs['server'] = 'db';
-$dbs['username'] = 'user';
-$dbs['passwd'] = 'password';
-$dbs['dbname'] = 'usebb';
-$dbs['prefix'] = 'usebb_';
-$dbs['persistent'] = 0;
-```
-
-* Run `docker-compose up -d`.
+* Copy `config.php` from this project to `../usebb/config.php`.
+* Run `docker-compose up -d`. The first time, it will take a while before all containers are built and ready.
 * Go to [the register page](http://0.0.0.0/panel.php?act=register) and click "I accept".
 * Fill in the credentials for your admin account and click "Register".
 * Proceed to [log in](http://0.0.0.0/panel.php?act=login) using your specified credentials.
