@@ -24,4 +24,10 @@ Using Adminer, you can easily access the UseBB database:
 * Provided containers are running, go to [the Adminer interface](http://0.0.0.0:8080/).
 * Enter "MySQL", `db`, `user`, `password` and `usebb` for respectively system, server, username, password and database, and click "Login".
 
+## License
+
+Copyright 2022, Dietrich Moerman.
+
+Released under the terms of the [MIT License](LICENSE).
+
 ![](https://raw.githubusercontent.com/usebb/UseBB/v1.0/templates/default/smilies/lol.gif)
