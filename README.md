@@ -4,6 +4,8 @@ Docker and Docker Compose set-up for running [legacy UseBB 1](https://github.com
 
 This is used primarily for code refactoring katas, workshops, and just downright nostalgia.
 
+Also works with [Podman](https://podman.io/) and Podman Compose.
+
 ## Set up
 
 * Clone UseBB 1 into `../usebb`.
