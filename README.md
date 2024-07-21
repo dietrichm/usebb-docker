@@ -10,7 +10,7 @@ Also works with [Podman](https://podman.io/) and Podman Compose.
 
 * Clone UseBB 1 into `../usebb`.
 * Copy `config.php` from this project to `../usebb/config.php`.
-* Run `docker-compose up -d`. The first time, it will take a while before all containers are built and ready.
+* Run `docker compose up -d`. The first time, it will take a while before all containers are built and ready.
 * Go to [the register page](http://0.0.0.0/panel.php?act=register) and click "I accept".
 * Fill in the credentials for your admin account and click "Register".
 * Proceed to [log in](http://0.0.0.0/panel.php?act=login) using your specified credentials.
