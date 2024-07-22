@@ -17,7 +17,7 @@ Also works with [Podman](https://podman.io/) and Podman Compose.
 
 ## Checking mails
 
-Mails are sent to a local MailHog container, which you can [access in the browser](http://0.0.0.0:8025/).
+Mails are sent to a local Mailpit container, which you can [access in the browser](http://0.0.0.0:8025/).
 
 ## Peeking into the database
 
