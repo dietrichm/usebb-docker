@@ -26,6 +26,12 @@ Using Adminer, you can easily access the UseBB database:
 * Provided containers are running, go to [the Adminer interface](http://0.0.0.0:8080/).
 * Enter "MySQL", `db`, `user`, `password` and `usebb` for respectively system, server, username, password and database, and click "Login".
 
+## Composer
+
+Composer 2.2 (which still runs on PHP 5) is available in the `web` container.
+
+To run, use `docker compose exec web composer <command>`.
+
 ## License
 
 Copyright 2022, Dietrich Moerman.

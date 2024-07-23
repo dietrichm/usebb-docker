@@ -5,3 +5,4 @@ RUN apt-get update && apt-get install -y ssmtp
 RUN echo "Mailhub=mailpit:1025" > /etc/ssmtp/ssmtp.conf
 RUN echo "FromLineOverride=yes" >> /etc/ssmtp/ssmtp.conf
 RUN echo "sendmail_path=/usr/sbin/ssmtp -t" > "$PHP_INI_DIR/php.ini"
+COPY --from=composer/composer:2.2-bin /composer /usr/bin/composer
