@@ -4,7 +4,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - ../usebb:/var/www/html
+      - ../usebb:/var/www/html:z
   db:
     image: mysql:5
     volumes:
